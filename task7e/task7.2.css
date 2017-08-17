@@ -7,6 +7,10 @@ body{
 }
 /*头部*/
 header{
+	 position: fixed;
+         top: 0;
+        left: 0;
+        width: 100%;
 	font-size: 1.4rem;
 	color: white;
 	line-height: 3rem;
@@ -30,6 +34,7 @@ header{
 
 /*结果界面*/
 .neck{
+	padding-top:3rem;
 	padding-bottom: 3vh;
 	background-color: #29bde0;
 	height: 22rem;
