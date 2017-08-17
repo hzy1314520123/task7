@@ -1,0 +1,139 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+}
+a:hover{
+	text-decoration: none;
+}
+/*页眉部分*/
+ header{
+ 	font-size: 1.3rem;
+	text-align: center;
+	color: white;
+	background-color: #5AC0CE;
+	line-height: 3.8rem;
+	height: 3rem;
+}
+.icon-mulu{
+	margin:1.4rem 0 0 0.5rem;
+	font-size: 1.5rem;
+	float: left;
+}
+.icon-cha{
+	margin: 1.4rem 1rem 0 0;
+	font-size: 1.4rem;
+	float: right;
+}
+/*发言结束*/
+.neck{
+	color: #8C8C8C;
+	text-align: center;
+	line-height: 3rem;
+	height: 3rem;
+	background-color:#BAE9F4;
+}
+.neck p{
+	float: left;
+	margin-left: 2rem;
+}
+.icon-hebingxingzhuang{
+	margin: 1.2rem 1.5rem 0 0;
+	float: right;
+	font-size: 2rem;
+	color: #FAA732;
+}
+.icon-xia{
+	color: #BAE9F4;
+	position: absolute;
+	left: 2rem;
+	top: 5.789rem;
+}
+.anotation{
+	color: white;
+	position: absolute;
+	left: 2rem;
+	top: 7rem;
+}
+ /*中间部分*/
+.head-part{
+	height: 31vw;
+}
+ main{
+ 	height: 100%;
+ 	padding-top: 3.5rem;
+ 	padding-bottom: 5rem;
+ 	background-color: #5AC0CE;
+}
+.min{
+	float: left;
+	width: 33%;
+}
+.hptop{
+	height: 0;
+	border: solid 3px white;
+	margin: 0 auto;
+	background-color: #0044CC;
+	width:22vw;
+	height: 22vw;
+}
+
+.hptopone{
+	text-align: center;
+	background-color: #f3c881;
+	line-height: 16.5vw;
+	height: 16.5vw;
+}
+.hptoptwo{
+	color:white;
+	text-align: center;
+	height: 5.5vw;
+	background-color:#82af98 ;
+}
+.opation{
+	text-align: center;
+	padding-left: 0.15rem;
+	margin: 0.3rem auto 0.4rem;
+	width:79%;
+}
+.opation div{
+	border: solid 1px #5AC0CE;
+	background-color: white;
+	width: 18%;
+}
+.icon-chakan{
+	color: #F89406;
+}
+.icon-miaozhunjing{
+	color: #40AA29;
+}
+.icon-shizi{
+	font-size: 0.5rem;
+	color: red;
+}
+.opation{
+	visibility:hidden;
+}
+.min:hover .opation{
+	visibility: visible;
+}
+/*底部*/
+.voto{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5rem;
+	background-color: #5AC0CE;
+}
+.votoone{
+	border-radius: 0.5rem;
+	margin: 0.8rem auto 1rem;
+	font-size: 2rem;
+	color: white;
+	text-align: center;
+	background-color:#f8B455; 
+	line-height: 3.5rem;
+	height: 3.5rem;
+	width: 80%;
+}

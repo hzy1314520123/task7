@@ -1,0 +1,125 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+a:hover{
+	text-decoration: none;
+}
+/*头部*/
+header{
+	font-size: 1.4rem;
+	color: white;
+	line-height: 3rem;
+	height: 3rem;
+	background-color: #29bde0;
+	text-align: center;
+	border-bottom: solid 1px white ;
+}
+.icon-zhuye{
+	padding:1rem 0 0 0.4rem;
+	font-size:2.2rem;
+	float: left;
+}
+.icon-right{
+	margin-right: 0.5rem;
+	padding-top: 0.5rem;
+	height: 2.2rem;
+	width: 2.2rem;
+	float: right;
+	background: url(../img/结果页_03.png) left no-repeat;
+	background-size: 100%;
+}
+
+/*结果界面*/
+.neck{
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	background-color: #29bde0;
+	height: 22rem;
+}
+.vistry{
+	margin: 0 auto;
+	width: 50%;
+	height: 8rem;
+	background: url(../img/结果页_07.png) left no-repeat;
+	background-size: 100%;
+}
+.conclusion{
+	padding-top: 1rem;
+	padding-bottom: 1.5rem;
+	line-height: 1.5rem;
+	font-size: 1.2rem;
+	margin: 0 auto;
+	width: 80%;
+	color: #fcc76b;
+}
+.statis{
+	font-size: 1rem;
+	line-height: 1.7rem;
+	margin: 0 auto;
+	width: 80%;
+	color: white;
+}
+.left-time{
+	color: #000000;
+	float: left;
+}
+.right-time{
+	float: right;
+}
+.bottom-time{
+	padding-top: 1.6rem;
+}
+/*过程记录*/
+.content{
+    margin-top: 0.6rem;
+	color: #C0C0C0;
+	border-bottom: solid 1px #CCCCCC;
+	height: 5rem;
+}
+.content-one{
+	line-height: 1rem;
+	margin: 0 auto;
+	width: 80%;
+}
+/*脚步结尾*/
+.footerbg{
+	height: 5rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	opacity:0.5;
+	background-color:#6dd2e9; 
+}
+.footerbg:hover {
+	opacity: inherit;
+}
+footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 5rem;
+}
+footer div{
+	margin-top: 0.6rem;
+	font-size: 1.7rem;
+	color: white;
+	text-align: center;
+	border-radius: 0.5rem;
+	line-height: 3.8rem;
+	height: 3.8rem;
+	width: 42%;
+}
+.againone{
+	float: left;
+	margin-left: 1rem;
+	background-color: #f37072;
+}
+.uloading{
+	float: right;
+	margin-right: 1rem;
+	background-color: orange;
+}
+
