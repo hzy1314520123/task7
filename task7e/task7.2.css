@@ -2,7 +2,7 @@ body{
 	padding: 0;
 	margin: 0;
 }
-a:hover{
+ body a{
 	text-decoration: none;
 }
 /*头部*/
@@ -16,15 +16,13 @@ header{
 	border-bottom: solid 1px white ;
 }
 .icon-zhuye{
-	padding:1rem 0 0 0.4rem;
-	font-size:2.2rem;
+	padding-left:0.5rem;
+	font-size:1.8rem;
 	float: left;
 }
 .icon-right{
 	margin-right: 0.5rem;
-	padding-top: 0.5rem;
-	height: 2.2rem;
-	width: 2.2rem;
+	width: 1.8rem;
 	float: right;
 	background: url(../img/结果页_03.png) left no-repeat;
 	background-size: 100%;
@@ -45,10 +43,7 @@ header{
 	background-size: 100%;
 }
 .conclusion{
-	padding-top: 1rem;
 	padding-bottom: 1.5rem;
-	line-height: 1.5rem;
-	font-size: 1.2rem;
 	margin: 0 auto;
 	width: 80%;
 	color: #fcc76b;
@@ -65,17 +60,19 @@ header{
 	float: left;
 }
 .right-time{
+	font-size: 0.7rem;
 	float: right;
 }
 .bottom-time{
-	padding-top: 1.6rem;
+	font-size: 0.9rem;
+	padding-top: 1.1rem;
 }
 /*过程记录*/
 .content{
     margin-top: 0.6rem;
 	color: #C0C0C0;
 	border-bottom: solid 1px #CCCCCC;
-	height: 5rem;
+	
 }
 .content-one{
 	line-height: 1rem;
