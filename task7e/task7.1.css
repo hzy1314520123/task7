@@ -8,6 +8,10 @@ body{
 }
 /*页眉部分*/
  header{
+	position: fixed;
+        top: 0;
+        left: 0;
+        idth: 100%;
  	font-size: 1.3rem;
 	text-align: center;
 	color: white;
@@ -27,6 +31,7 @@ body{
 }
 /*发言结束*/
 .neck{
+	padding-top:3rem;
 	color: #8C8C8C;
 	height: 3rem;
 	background-color:#BAE9F4;
