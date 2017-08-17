@@ -68,8 +68,8 @@ main{
 }
 .icon-right{
 	position: absolute;
-	top: 70vh;
-	right: 1vw;
+	top: 57%;
+	right: 0.5vw;
 	font-size: 2.5rem;
 	color: #FAA732;
 }
