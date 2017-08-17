@@ -30,15 +30,14 @@ header{
 
 /*结果界面*/
 .neck{
-	padding-top: 3vh;
 	padding-bottom: 3vh;
 	background-color: #29bde0;
 	height: 22rem;
 }
 .vistry{
 	margin: 0 auto;
-	width: 50%;
-	height: 8rem;
+	width: 35vw;
+	height: 25vw;
 	background: url(../img/结果页_07.png) left no-repeat;
 	background-size: 100%;
 }
