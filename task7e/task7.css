@@ -8,6 +8,10 @@ body a{
 }
 /*页眉*/
 header{
+	position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
 	background-color: #5AC0CE;
 	line-height: 3.2rem;
 	height: 3.2rem;
@@ -19,7 +23,8 @@ header{
 	color: white;
 }
 /*颈部 上次游戏*/
-.neck{
+.neck{  
+	padding-top: 1.8rem;
 	color: #8C8C8C;
 	font-size: 1.2rem;
 	text-align: center;
