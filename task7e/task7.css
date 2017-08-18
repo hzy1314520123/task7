@@ -54,7 +54,7 @@ main{
 	border-bottom: solid 1px #FAA732 ;
 	color: #FAA732;
 }
-.contentone{
+.content-one{
        position:relative;
 }
 .simplify{
@@ -76,7 +76,7 @@ main{
 }
 .icon-right{
 	position: absolute;
-	top: 50%;
+	top: 46%;
 	right: 0.5vw;
 	font-size: 2.5rem;
 	color: #FAA732;
